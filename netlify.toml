@@ -4,3 +4,8 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[[redirects]]
+  from = "/*"
+  to = "https://payerset.com"
+  status = 200
