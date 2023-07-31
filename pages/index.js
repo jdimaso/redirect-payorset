@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import { redirect } from 'next/navigation'
 
 export default function Home() {
+redirect('https://www.payerset.com')
   return (
     <div className="container">
       <Head>
@@ -11,9 +13,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Redirecting to www.payerset.com" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Redirecting to www.payerset.com
         </p>
       </main>
 
